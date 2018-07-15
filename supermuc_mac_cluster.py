@@ -61,8 +61,8 @@
 # build options
 compileMode='release'
 parallelization='hybrid'
-arch='$ARCH'
-order='$ORDER'
+arch='x86_64'
+order='5'
 generatedKernels='yes'
 netcdf='yes'
 netcdfDir='$SeisSolHome'
