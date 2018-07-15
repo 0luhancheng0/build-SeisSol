@@ -1,5 +1,5 @@
 
-ssource /opt/intel/bin/compilervars.sh -arch intel64 -platform linux
+source /opt/intel/bin/compilervars.sh -arch intel64 -platform linux
 
 # User specific aliases and functions
 export EDITOR=vim
