@@ -61,7 +61,7 @@
 # build options
 compileMode='release'
 parallelization='hybrid'
-arch='x86_64'
+arch='dnoarch'
 order='5'
 generatedKernels='yes'
 netcdf='yes'
