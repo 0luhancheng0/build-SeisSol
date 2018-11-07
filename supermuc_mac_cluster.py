@@ -59,16 +59,23 @@
 #
 
 # build options
-compileMode='release'
-parallelization='hybrid'
-arch='dnoarch'
+compileMode                 = 'release'
+parallelization             = 'hybrid'
+generatedKernels            = 'yes'
+measureNodeLevelPerformance = 'none'
+useExecutionEnvironment     = 'yes'
+logLevel                    = 'warning'
+logLevel0                   = 'info'
 order='5'
-generatedKernels='yes'
-netcdf='yes'
-netcdfDir='$SeisSolHome'
-hdf5='yes'
-hdf5Dir='$SeisSolHome'
 
-#additionally for puml mesh format
-metis = 'yes'
-metisDir='$SeisSolHome'
+# machine dependent options (SNB-EP, Bulldozer)
+arch = 'dsnb'
+binPath='$SeisSolHome'
+netcdf='yes'
+netcdfDir=binPath
+hdf5='yes'
+hdf5Dir=binPath
+metis='yes'
+metisDir=binPath
+
+
