@@ -2,7 +2,7 @@
 source /opt/intel/bin/compilervars.sh -arch intel64 -platform linux
 export SeisSolHome=~/SeisSolHome
 # User specific aliases and functions
-export PATH=$SeisSolHome/bin:$PATH
+export PATH=~/libxsmm/bin:$SeisSolHome/bin:$PATH
 export LD_LIBRARY_PATH=$SeisSolHome/lib:$SeisSolHome/lib64:$LD_LIBRARY_PATH
 export EDITOR=vim
 export SCONS_LIB_DIR=$SeisSolHome/lib64/scons-2.2.0/
