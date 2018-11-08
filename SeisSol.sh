@@ -1,4 +1,4 @@
-
+# install intel suit with mpi, c++/fortran compiler and c++/fortran mkl is prerequired
 # seems necessary on nectar
 sudo locale-gen UTF-8
 echo LC_ALL="en_AU.UTF-8" | sudo tee -a /etc/environment
@@ -13,12 +13,6 @@ sudo apt install -y git build-essential cmake m4 vim zlib1g-dev python-pip
 sudo pip install numpy
 sudo pip install scipy
 sudo pip install lxml
-
-# install intel suit with mpi, c++/fortran compiler and c++/fortran mkl
-wget https://raw.githubusercontent.com/AUsername000/install_some_stuff/master/intel_tools_install.sh
-chmod 777 intel_tools_install.sh
-./intel_tools_install.sh
-rm intel_tools_install.sh
 
 # this is where all dependency installed
 mkdir ~/SeisSolHome
