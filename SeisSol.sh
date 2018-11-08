@@ -6,7 +6,7 @@ echo LC_ALL="en_AU.UTF-8" | sudo tee -a /etc/environment
 
 # update package
 sudo apt update
-sudo apt full-upgrade
+sudo apt -y full-upgrade
 sudo apt install -y git build-essential cmake m4 vim zlib1g-dev python-pip
 
 # these package were used in final compilation, but wasn't mentioned in wiki page
