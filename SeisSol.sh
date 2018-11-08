@@ -16,9 +16,9 @@ sudo pip install lxml
 
 # install intel suit with mpi, c++/fortran compiler and c++/fortran mkl
 wget https://raw.githubusercontent.com/AUsername000/install_some_stuff/master/intel_tools_install.sh
-chmod 777 intel_tools_install
-./intel_tools_install
-rm intel_tools_install
+chmod 777 intel_tools_install.sh
+./intel_tools_install.sh
+rm intel_tools_install.sh
 
 # this is where all dependency installed
 mkdir ~/SeisSolHome
